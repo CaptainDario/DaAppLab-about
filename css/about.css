@@ -1,0 +1,48 @@
+
+/*LANDING-ZONE CANVAS*/
+Canvas {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    border-width: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+}
+/*DaAppLab Logo over the lading-zone Cavnas*/
+.aboutFlex {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutFlex > * {
+    margin: 5px;
+}
+/* DaAppLab links */
+.daapplab_links_flex{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.daapplab_links{
+  height: 75px;
+  padding: 5px;
+}
+/*The DaAppLab writing in the center of the moving 0's and 1's*/
+@font-face{
+  font-family: CHLORINR;
+  src: url('../fonts/CHLORINR.TTF');
+}
+.daapplab_writing{
+  font-family: CHLORINR;
+  font-size: 150px;
+  color: rgb(106, 0, 199);
+  letter-spacing: 7px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
