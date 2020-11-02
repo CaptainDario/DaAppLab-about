@@ -23,7 +23,7 @@ var color = "#ffffff";
 //alle nullen und einsen
 var quads = [];
 //die Geschwindigkeit der 1/0im Hintergrund(Die Mausposition(horizontal))
-var speed = 0;
+var speed = 1;
 
 
 
